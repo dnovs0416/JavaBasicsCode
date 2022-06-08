@@ -1,0 +1,25 @@
+package com.syntax.class11;
+
+public class Task4 {
+
+	public static void main(String[] args) {
+
+		// create a 2D array or integer type where you will store odd and even numbers.
+		// Develop a program which will identify/print the even numbers only.
+		
+		int[][]arr= {{10,15,10},
+				 	 {20,50,20},
+				 	 {30,30,30,60}};
+		
+		for (int j=0; j<3; j++) {
+			
+			for (int i=0; i<3; i++) {
+				if(arr[j][i]%2==0) {
+					System.out.println(arr[j][i]);
+				}
+			}
+		}
+
+	}
+
+}
