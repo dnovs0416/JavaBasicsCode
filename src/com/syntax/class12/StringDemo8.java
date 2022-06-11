@@ -7,7 +7,7 @@ public class StringDemo8 {
 		
 		String str="Java is Easy";
 		
-		String str2=str.substring(0,4);
+		String str2=str.substring(0,3);
 		System.out.println(str2);
 		System.out.println(str.substring(8,12));
 	}
